@@ -1,0 +1,30 @@
+{
+  "name": "message-in-a-bottle",
+  "version": "1.0.0",
+  "description": "A test project using the AWS JavaScript SDK to send SMS messages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cantoniazzi/message-in-a-bottle.git"
+  },
+  "keywords": [
+    "nodejs",
+    "aws",
+    "sms-api"
+  ],
+  "author": "@cantoniazzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cantoniazzi/message-in-a-bottle/issues"
+  },
+  "homepage": "https://github.com/cantoniazzi/message-in-a-bottle#readme",
+  "dependencies": {
+    "aws-sdk": "^2.228.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "joi": "^13.2.0"
+  }
+}
